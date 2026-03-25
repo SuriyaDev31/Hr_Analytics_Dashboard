@@ -1,7 +1,14 @@
 # HR Analytics Dashboard
 
-## 🗂️ Table of Contents
+## 📊 Dashboard Preview
 
+### HR Analytics Dashboard Overview
+![HR Analytics Dashboard](images/Hr_Analytics_Dashboard.png)
+
+### HR Attrition Insights Dashboard
+![HR Attrition Insights](images/HR_Attrition_Insights_Dashboard.png)
+
+## 🗂️ Table of Contents
 
 1.🎯 Project Objective & Summary
 
