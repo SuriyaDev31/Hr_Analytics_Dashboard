@@ -6,7 +6,7 @@
 ![HR Analytics Dashboard](images/Hr_Analytics_Dashboard.png)
 
 ### HR Attrition Insights Dashboard
- ![HR Attrition Insights](images/HR%20Attrition%20Insights%20Dashboard.png)
+![HR Attrition Insights](images/HR%20Attrition%20Insights%20Dashboard.png)
  
 ## 🗂️ Table of Contents
 
@@ -31,33 +31,27 @@
 
 8.🧮 Steps / Methodology / Approach
 
-9.🐍 Code / Implementation (Python)
-
-10.🧠 Exploratory Data Analysis (EDA) & Visualizations
-
-11.📝 SQL Analysis (MySQL)
-
-12.📈 Analysis , Modeling, Dashboard Creation (Tableau) ,  Dashboard Screenshots (Tableau)  & Visual Outputs 
+9.📈 Analysis , Modeling, Dashboard Creation (Tableau) ,  Dashboard Screenshots (Tableau)  & Visual Outputs 
     
-13.💡 Key Insights, Findings & Business Takeaways
+10.💡 Key Insights, Findings & Business Takeaways
 
-14.❓ Key Questions to Answer
+11.❓ Key Questions to Answer
 
-15.🚀 Challenges, Gotchas & Learnings
+12.🚀 Challenges, Gotchas & Learnings
 
-16.🗂 Deliverables
+13.🗂 Deliverables
 
-17.🗄️ Business Impact
+14.🗄️ Business Impact
 
-18.⚙️ Skills Demonstrated
+15.⚙️ Skills Demonstrated
 
-19.📚 References & Resources
+16.📚 References & Resources
 
-20.👨‍💻 Authors / Contributors
+17.👨‍💻 Authors / Contributors
 
-21.📜 License
+18.📜 License
 
-22.🏁 Conclusion
+19.🏁 Conclusion
 
 ## Step 1.🎯 Project Objective & Summary
 
@@ -134,14 +128,12 @@ These visualizations help HR teams quickly understand where attrition is occurri
             |── 💻 Installation Instructions
             ├── 📂 Folder Structure & Code Organization & Implementation
             ├── ▶️ Usage / How to Run
-            └── 🌐 Live Demo / Deployment Link
-🏗️ Project Setup
+
+### 🏗️ Project Setup
 
 * Download the dataset
 
 * Import the dataset into Power BI
-
-* Perform data cleaning and transformation
 
 * Create calculated columns and measures
 
@@ -149,7 +141,7 @@ These visualizations help HR teams quickly understand where attrition is occurri
 
 * Publish or export the dashboard
 
-💻 Installation Instructions
+### 💻 Installation Instructions
 
 To explore and interact with the HR Analytics Dashboard, follow the steps below to set up the project locally.
 
@@ -163,9 +155,10 @@ Before running the project, make sure you have the following installed:
 
 * Git (optional – for cloning the repository)
 
-Required Software
+### Required Software
 
-Software and Purpose
+### Software and Purpose
+
 Power BI Desktop  -	Used to open and interact with the dashboard
 
 Git	- Used to clone the repository
@@ -190,19 +183,19 @@ Open the project folder containing the Power BI file.
 
 Example structure:
 
-HR-Analytics-Dashboard
-│
-├── Dataset
-│   └── HR_Employee_Data.csv
-│
-├── PowerBI
-│   └── HR_Analytics_Dashboard.pbix
-│
-├── Screenshots
-│   ├── Dashboard_Overview.png
-│   └── Dashboard_Analysis.png
-│
-└── README.md
+    HR-Analytics-Dashboard
+    │
+    ├── Data
+    │   └── HR Data.xlsx
+    │
+    ├── Power_bi
+    │   └── HR_Dashboard.pbix
+    │
+    ├── images
+    │   ├── HR Attrition Insights Dashboard.png
+    │   ├── Hr_Analytics_Dashboard.png
+    │
+    └── README.md
 
 ### Step 3: Open the Dashboard
 
@@ -234,23 +227,23 @@ Available interactions include:
 
 These interactions help simulate real-world HR analytics use cases.
 
-📂 Folder Structure & Code Organization & Implementation
+### 📂 Folder Structure & Code Organization & Implementation
 
-HR-Analytics-Dashboard
-│
-├── Dataset
-│   └── HR_Employee_Data.csv
-│
-├── PowerBI
-│   └── HR_Analytics_Dashboard.pbix
-│
-├── Screenshots
-│   ├── Dashboard_Page_1.png
-│   ├── Dashboard_Page_2.png
-│
-└── README.md
+    HR-Analytics-Dashboard
+    │
+    ├── Data
+    │   └── HR Data.xlsx
+    │
+    ├── Power_bi
+    │   └── HR_Dashboard.pbix
+    │
+    ├── images
+    │   ├── HR Attrition Insights Dashboard.png
+    │   ├── Hr_Analytics_Dashboard.png
+    │
+    └── README.md
 
-▶️ Usage / How to Run
+### ▶️ Usage / How to Run
 
 * Open the Power BI file
 
@@ -258,23 +251,13 @@ HR-Analytics-Dashboard
 
 * Analyze employee attrition patterns through the dashboard visuals
 
-🌐 Live Demo / Deployment Link
-
-You can view the interactive version of this dashboard online.
-
-Power BI Service Dashboard
-
-🔗 Live Dashboard:
-
-https://app.powerbi.com/view?r=example-hr-analytics-dashboard
-
-(Replace with your actual Power BI share link if deployed.)
-
 ## Step 6.🧩 Dataset Information (Data Source, Data Details & Data Dictionary)
 
 ###  Dataset Information
 
 The dataset used in this project contains employee-level data commonly used in HR analytics for attrition analysis.
+
+Dataset link : https://drive.google.com/drive/folders/1plvSGMLymLb1ubod6eKSNkd0boRlm8Ft 
 
 ### Key Columns in Dataset
 
@@ -328,73 +311,89 @@ Derived Fields:
 
 ## Step 7.🧰 Tools,Technologies & Skills Used
 
-Tools and Technologies:
+Tools & Technologies
 
-* Power BI
-* Microsoft Excel
+* Power BI Desktop – Dashboard creation & data visualization
+* Microsoft Excel / CSV Dataset – Data source
+
+Skills Demonstrated
+
 * Data Visualization
-* Data Analysis
-
-Technical Skills:
-
-* Data Cleaning
-* Data Transformation
 * Dashboard Design
-* KPI Creation
-* Data Aggregation
-* Business Analysis
+* KPI Analysis (Attrition, Employees, Rate, Age)
+* Business Insights Generation
+* Interactive Filtering (Slicers in Power BI)
 
-Data Visualization Skills:
+Visualization Techniques
 
 * Bar Charts
 * Donut Charts
 * Pie Charts
 * Treemaps
 * KPI Cards
-* Interactive Filters
+* Slicers (Filters)
 
 ## Step 8.🧮 Steps / Methodology / Approach
 
-The project followed a structured data analytics workflow.
+The project follows a structured approach using Power BI to analyze employee attrition and build an interactive dashboard.
 
 ### Step 1 – Data Understanding
+* Reviewed the HR dataset to understand employee attributes such as age, department, job role, and attrition.
 
-* The dataset was examined to understand the available fields and identify relevant attributes for attrition analysis.
+* Identified key fields required for analysis.
 
-### Step 2 – Data Cleaning
+### Step 2 – Data Loading
+* Imported the dataset (HR Data.xlsx) into Power BI Desktop.
 
-Data cleaning included:
+* Ensured the data was correctly loaded for visualization.
 
-* Handling missing values
-* Verifying data types
-* Removing redundant columns
-* Ensuring consistency in categorical values
+### Step 3 – Data Preparation (Basic)
+* Verified data consistency (categories like department, job role, etc.)
 
-### Step 3 – Feature Engineering
+* Performed minimal adjustments in Power BI where required
+(Dataset was already clean and structured)
 
-New analytical fields were created such as:
+### Step 4 – KPI Creation
 
-* Age groups
-* Attrition labels
-* Employee status indicators
-
-### Step 4 – KPI Development
-
-Key performance indicators were calculated:
+Created key HR metrics:
 
 * Total Employees
+
 * Attrition Count
+
 * Active Employees
+
 * Attrition Rate
+
 * Average Age
 
 ### Step 5 – Dashboard Development
 
-* Multiple visualizations were created to analyze attrition patterns across various dimensions.
+* Designed interactive dashboards using Power BI
+
+* Built visuals to analyze attrition across:
+
+    * Department
+
+    * Job Role
+
+    * Age Group
+
+    * Education
+
+    * Business Travel
+
+    * Job Satisfaction
+
+    * Work-Life Balance
+
+    * Added slicers for filtering (Gender, Department)
 
 ### Step 6 – Insight Generation
 
-* Insights were derived from visual analysis to identify factors contributing to employee attrition.
+* Analyzed dashboard visuals to identify patterns and trends
+
+* Derived key business insights related to employee attrition
 
 ## Step 9.📈 Analysis , Modeling , Dashboard Creation (Power BI) ,  Dashboard Screenshots (Power BI) & Visual Outputs
 
@@ -473,7 +472,7 @@ Employees reporting lower work-life balance scores are more likely to leave the 
 
 1. What is the overall employee attrition rate?
 
-* The organization has 1470 total employees, with 237 employees leaving the company, resulting in an attrition rate of 16.12%.
+*  The organization has 1470 total employees, with 237 employees leaving the company, resulting in an attrition rate of 16.12%.
 
 2. Which departments experience the highest attrition?
 
@@ -535,12 +534,10 @@ During this project, several challenges were encountered.
 
 The final deliverables of this project include:
 
-* Interactive HR Analytics Dashboard
-* Employee Attrition Analysis
-* Data Visualization Report
-* Business Insights and Recommendations
-* Power BI Dashboard File
-* GitHub Project Repository
+- [Power BI Documentation](https://learn.microsoft.com/power-bi/)
+- [Microsoft Excel Documentation](https://support.microsoft.com/excel)
+- [Data Visualization Best Practices](https://www.tableau.com/learn/articles/data-visualization)
+- [HR Analytics Concepts](https://www.aihr.com/blog/hr-analytics/)
 
 ## Step 14.🗄️ Business Impact
 
@@ -556,15 +553,14 @@ By leveraging this dashboard, HR teams can proactively address employee turnover
 
 ## Step 15.⚙️ Skills Demonstrated
 
-This project demonstrates several data analytics skills including:
+This project demonstrates the following data analytics and visualization skills:
 
-* Data Cleaning
-* Data Analysis
 * Data Visualization
-* Business Intelligence
-* Dashboard Development
+* Dashboard Design (Power BI)
+* KPI Analysis (Attrition, Employees, Rate, Age)
+* Business Insight Generation
+* Interactive Filtering (Slicers)
 * Analytical Thinking
-* Insight Generation
 * Data Storytelling
 
 ## Step 16.📚 References & Resources
